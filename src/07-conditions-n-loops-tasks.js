@@ -245,12 +245,12 @@ function reverseString(str) {
  *   87354 => 45378
  *   34143 => 34143
  */
-function reverseInteger(/* num */) {
-  // return (
-  //   parseFloat(num.toString().split('').reverse().join('')) * Math.sign(num)
-  // );
+function reverseInteger(num) {
+  return (
+    parseFloat(num.toString().split('').reverse().join('')) * Math.sign(num)
+  );
 
-  throw new Error('Not implemented');
+  // throw new Error('Not implemented');
 }
 
 /**
